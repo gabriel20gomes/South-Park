@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Park</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+
+<link rel="stylesheet" href="./src/css/estilos.css">
+
+<link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo-South-Park">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="eric" data-name="Eric Cartman" data-description="Eric Cartman é gordinho, agressivo e egoísta, e tem seu personagem inspirado em Adolf Hitler. Sempre discriminando as classes sociais menos favorecidas e passando por cima de todos para conseguir o que deseja.">
+                    <img src="./src/imagens/card-eric.jpg" alt="Personagem Eric">
+                </li>
+
+                <li class="personagem" id="butters" data-name="Leopold Stotch" data-description="Chamado apenas de Butters, é um garoto loiro e muito sensível que ganha destaque a partir da 5ª temporada, Tem um alter ego, o professor Chaos (que usa uma roupa feita de papel-alumínio), que aparece toda hora que é contrariado; Butters já pensou que ele é o melhor amigo de Kenny, simplesmente pois eles são vizinhos, mas logo ele caiu na real, atualmente, ele é o melhor amigo de Cartman, sempre se unindo a ele e os outros.">
+                    <img src="./src/imagens/card-butters.jpg" alt="Personagem Butters">
+                </li>
+
+                <li class="personagem" id="clyde" data-name="Clyde Donovan" data-description="As garotas acham Clyde o garoto mais bonito. No episódio Cartman Sucks, quando Cartman foi demitido do grupo, Clyde se juntou a eles, é o melhor amigo de Craig, mas sempre fica em segundo plano, por estar meio fora de peso.">
+                    <img src="./src/imagens/card-clayde.jpg" alt="Personagem Clyde">
+                </li>
+
+                <li class="personagem" id="jimmy" data-name="Jimmy Valmmer" data-description="É uma criança especial que anda de muleta. É gago, e todos na turma gostam dele, foi um forte candidato a substituto quando Kenny Morreu.">
+                    <img src="./src/imagens/card-jimmy.jpg" alt="Personagem Jimmy">
+                </li>
+
+                <li class="personagem" id="kenny" data-name="Kenny McCormick" data-description="É pobre, sarcástico (de acordo com as respostas de seus amigos ao comentários que não conseguimos entender porque seu casaco abafa suas falas) e sempre morre no final.">
+                    <img src="./src/imagens/card-kenny.jpg" alt="Personagem Kenny">
+                </li>
+
+                <li class="personagem" id="kyle" data-name="Kyle Broflovski" data-description="Tem vários confrontos com Eric, já que ele tem origem judaica. Mas, o menino é muito bom e inteligente e sempre disposto a ajudar todo mundo.">
+                    <img src="./src/imagens/card-kyle.jpg" alt="Personagem Kyle">
+                </li>
+
+                <li class="personagem" id="stan" data-name="Stan Marsh" data-description="É certinho e sensível, e é o protagonista na maior parte dos episódios da série. Sempre utiliza um gorrinho azul e sempre tenta pregar o bem entre seus amigos.">
+                    <img src="./src/imagens/card-stan.jpg" alt="Personagem Stan">
+                </li>
+
+                <li class="personagem" id="tweek" data-name="Tweek Tweak" data-description="Filho do Sr. Tweek, gerente da cafeteria Tweek & Beans. Sua constante overdose de cafeína o deixa paranoico ao extremo, sempre tremendo e lhe dá muitos tiques nervosos, entre eles ficar piscando os olhos ou puxando o cabelo. Não consegue nem mesmo abotoar a camisa direito, Apareceu pela primeira vez no episódio Damien.">
+                    <img src="./src/imagens/card-tweek.jpg" alt="Personagem Tweek">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-eric.png" alt="Personagem Selecionado">
+
+            <div class="imformacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Eric Cartman é gordinho, agressivo e egoísta, e tem seu personagem inspirado em Adolf Hitler. Sempre discriminando as classes sociais menos favorecidas e passando por cima de todos para conseguir o que deseja.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
